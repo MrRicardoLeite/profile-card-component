@@ -11,6 +11,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+	background-position: right 53vw bottom 33vh, left 50vw top 48vh;
+    background-repeat: no-repeat, no-repeat;
 }
 
 hr {
